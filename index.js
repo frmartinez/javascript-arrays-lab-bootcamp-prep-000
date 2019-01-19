@@ -40,7 +40,7 @@ function prependKitten(name){
 kittens = ['Milo', 'Otis', 'Garfield'];
 function removeLastKitten(name){
   var newArray = [...kittens];
-  newArray.unshift(name);
+  newArray.pop(name);
   return newArray;
 }
 
