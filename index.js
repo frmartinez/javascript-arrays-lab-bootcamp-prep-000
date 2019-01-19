@@ -29,4 +29,11 @@ var newArray = kittens.push(name)
 return kittens;
 }
 
+function appendKitten(name){
+  var newArray = kittens.slice();
+  // or ES6 way
+  // var newArray = [...kittens];
+  newArray.push(name)
+  return newArray
+}
 
