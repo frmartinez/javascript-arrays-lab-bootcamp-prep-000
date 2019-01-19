@@ -24,9 +24,15 @@ return kittens ;
 } 
 
 kittens = ['Milo', 'Otis', 'Garfield'];
-
 function appendKitten(name){
   var newArray = [...kittens];
+  newArray.push(name);
+  return newArray;
+}
+
+kittens = ['Milo', 'Otis', 'Garfield'];
+function prependKitten(name){
+  var newArray = [kittens,...];
   newArray.push(name);
   return newArray;
 }
