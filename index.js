@@ -25,15 +25,9 @@ return kittens ;
 
 kittens = ['Milo', 'Otis', 'Garfield']
 
-appendKitten = function(name){
+function appendKitten(name){
   var one = kittens.push(name)
   return one
 }
 
-kittens = ['Milo', 'Otis', 'Garfield']
-
-prependKitten = function(name){
-  var two = kittens.unshift(name)
-  return two
-}
 
