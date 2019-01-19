@@ -23,17 +23,11 @@ kittens.shift(name) ;
 return kittens ;
 } 
 
-kittens = ['Milo', 'Otis', 'Garfield']
-function appendKitten(name){
-var newArray = kittens.push(name)
-return kittens;
-}
+kittens = ['Milo', 'Otis', 'Garfield'];
 
 function appendKitten(name){
-  var newArray = kittens.slice();
-  // or ES6 way
-  // var newArray = [...kittens];
-  newArray.push(name)
-  return newArray
+  var newArray = [...kittens];
+  newArray.push(name);
+  return newArray;
 }
 
