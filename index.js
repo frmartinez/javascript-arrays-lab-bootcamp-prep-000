@@ -23,6 +23,7 @@ kittens.shift(name) ;
 return kittens ;
 } 
 
+kittens = ['Milo', 'Otis', 'Garfield']
 function appendKitten(name){
 kittens.push(name)
 return kittens;
