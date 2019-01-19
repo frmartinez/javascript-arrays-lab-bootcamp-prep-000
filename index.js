@@ -13,6 +13,6 @@ return kittens ;
 
 kittens = ['Milo', 'Otis', 'Garfield'];
 function destructivelyRemoveLastKitten(name){ 
-kittens.shift(name) ;
+kittens.pop(name) ;
 return kittens ;
 } 
