@@ -30,10 +30,4 @@ function appendKitten(name){
   return newArray;
 }
 
-kittens = ['Milo', 'Otis', 'Garfield'];
-function prependKitten(name){
-  var newArray = [kittens,...];
-  newArray.push(name);
-  return newArray;
-}
 
