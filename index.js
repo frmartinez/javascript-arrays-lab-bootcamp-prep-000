@@ -30,3 +30,10 @@ appendKitten = function(name){
   return one
 }
 
+kittens = ['Milo', 'Otis', 'Garfield']
+
+prependKitten = function(name){
+  var two = kittens.unshift(name)
+  return two
+}
+
