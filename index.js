@@ -47,7 +47,7 @@ function removeLastKitten(name){
 kittens = ['Milo', 'Otis', 'Garfield'];
 function removeFirstKitten(name){
   var newArray = [...kittens];
-  newArray.pop(name);
+  newArray.shift(name);
   return newArray;
 }
 
