@@ -12,7 +12,7 @@ return kittens ;
 } 
 
 kittens = ['Milo', 'Otis', 'Garfield']
-function destructivelyRemoveKitten(name){ 
+function destructivelyRemoveLastKitten(name){ 
 kittens.shift(name) ;
 return kittens ;
 } 
