@@ -26,7 +26,7 @@ return kittens ;
 kittens = ['Milo', 'Otis', 'Garfield']
 function appendKitten(name){
 var newArray = kittens.push(name)
-return newArray;
+return kittens;
 }
 
 
