@@ -26,8 +26,8 @@ return kittens ;
 kittens = ['Milo', 'Otis', 'Garfield']
 
 function appendKitten(name){
-  var one = kittens.push(name)
-  return one
+kittens.push(name)
+return kittens;
 }
 
 
