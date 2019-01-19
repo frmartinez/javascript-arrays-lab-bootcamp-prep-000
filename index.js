@@ -36,3 +36,15 @@ function prependKitten(name){
   newArray.unshift(name);
   return newArray;
 }
+
+kittens = ['Milo', 'Otis', 'Garfield'];
+function removeLastKitten(name){
+  var newArray = [...kittens];
+  newArray.unshift(name);
+  return newArray;
+}
+
+
+
+
+
