@@ -12,7 +12,7 @@ return kittens ;
 } 
 
 kittens = ['Milo', 'Otis', 'Garfield']
-function destructivelyPrependKitten(name){ 
+function destructivelyRemoveKitten(name){ 
 kittens.shift(name) ;
 return kittens ;
 } 
